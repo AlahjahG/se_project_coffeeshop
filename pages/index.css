@@ -151,7 +151,7 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -175,7 +175,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -199,7 +199,7 @@
 }
 .form__input::placeholder {
   padding: 10px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
