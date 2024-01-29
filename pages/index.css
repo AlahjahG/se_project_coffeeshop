@@ -79,12 +79,14 @@
 .about {
   padding: 119px 80px 173px;
   background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
 }
 
 .about__content {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .about__circle {
@@ -92,15 +94,20 @@
   height: 426px;
   width: 426px;
   border-radius: 50%;
-  margin-bottom: 176px;
+
   padding: 0;
   position: absolute;
+  top: -150px;
+  left: -120px;
 }
 
 .about__title {
   max-width: 251px;
+  z-index: 1;
+  color: #fff;
 }
 
 .about__paragraph {
   max-width: 660px;
+  color: #fff;
 }
