@@ -1,5 +1,5 @@
 .header {
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-position: center;
   background-size: cover;
   background-color: #ffffff;
@@ -15,7 +15,9 @@
   width: 646px;
   height: 568px;
   position: absolute;
-  padding: 124px 5px 124px 875px;
+  /*padding: 124px 5px 124px 875px;*/
+  right: 455px;
+  top: 150px;
 }
 
 .header__title {

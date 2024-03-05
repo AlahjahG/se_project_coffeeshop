@@ -5,6 +5,7 @@
 
 .nav__links {
   display: flex;
+  justify-content: space-evenly;
   gap: 20px;
   list-style: none;
 }
@@ -21,7 +22,7 @@
 
 .nav__link:hover {
   color: #2f80ed;
-  text-decoration: underline;
+  text-decoration: underlined;
 }
 
 .nav__logo {
