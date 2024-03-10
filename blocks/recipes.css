@@ -4,16 +4,29 @@
   justify-content: center;
 }
 
+.recipes__iframe {
+  width: 560px;
+  height: 315px;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .recipes {
   padding: 100px 80px 215px;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
 }
 
 .recipes__title {
@@ -24,6 +37,7 @@
   line-height: 52px;
   max-width: 580px;
   color: #ffffff;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -35,26 +49,5 @@
   max-width: 438px;
   margin-bottom: 80px;
   color: #ffffff;
-}
-
-.reservation {
-  padding: 100px 0 120px;
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-position: center;
-  background-size: cover;
-}
-
-.reservation__title {
-  margin: 0 0 80px;
-  text-align: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
-.reservation__form {
-  margin: 0 auto;
+  margin-top: 0;
 }
