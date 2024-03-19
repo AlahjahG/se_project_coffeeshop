@@ -55,6 +55,7 @@
 }
 
 .footer__copyright {
+  margin-bottom: 0;
   color: #fff;
   font-family: "Inter", sans-serif;
   font-style: normal;

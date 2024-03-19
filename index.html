@@ -107,7 +107,7 @@
         </section>
         <section class="reservation" id="make_reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="*" class="reservation__form form">
+          <form action="*" class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="Name" class="form__label">
                 Name *
@@ -116,7 +116,7 @@
                   id="Name"
                   class="form__input"
                   placeholder="Name Surname"
-                  alt=""
+                  alt=" Surname"
                 />
               </label>
 
@@ -127,6 +127,7 @@
                   id="number"
                   class="form__input"
                   placeholder="1-8"
+                  alt="number"
                 />
               </label>
 
@@ -136,6 +137,7 @@
                   type="datetime-local"
                   id="date"
                   class="form__input form__input_date"
+                  alt=" datetime-local"
                 />
               </label>
 
@@ -146,6 +148,7 @@
                   class="form__input"
                   id="email"
                   placeholder="email@email.com"
+                  alt="email"
                 />
               </label>
             </fieldset>
@@ -160,8 +163,7 @@
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
-            use biodegradable <br />
-            cups. All teas from our collection are $2/cup.
+            use biodegradable cups. All teas from our collection are $2/cup.
           </p>
 
           <ul class="menu__cards">
@@ -235,10 +237,10 @@
         </section>
 
         <section class="about" id="about-us">
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
-            <h2 class="about__title">About the coffee shop</h2>
             <div class="about__circle"></div>
-            <div class="about__circle_animation_blurred"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
             <div>
               <p class="about__paragraph">
                 Our coffee shop is located in the Triple Peaks Library. It

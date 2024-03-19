@@ -20,6 +20,18 @@
   position: relative;
   overflow: hidden;
 }
+.about__title {
+  max-width: 251px;
+  z-index: 1;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
 
 .about__content {
   display: flex;
@@ -39,34 +51,12 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  height: 426px;
-  width: 426px;
-  border-radius: 50%;
-  padding: 0;
-  position: absolute;
-  top: -150px;
-  left: -120px;
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
-.about__title {
-  max-width: 251px;
-  z-index: 1;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
 .about__paragraph {
-  max-width: 660px;
   color: #fff;
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
