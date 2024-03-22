@@ -14,11 +14,13 @@
 }
 
 .about {
+  display: flex;
   margin: 0;
   padding: 119px 80px 0;
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  justify-content: space-between;
 }
 .about__title {
   max-width: 251px;
@@ -34,9 +36,8 @@
 }
 
 .about__content {
+  max-width: 660px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 .about__circle {
@@ -62,5 +63,6 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  padding-bottom: 20px;
 }
