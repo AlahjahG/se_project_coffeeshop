@@ -1,3 +1,10 @@
+.form {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form__fieldset {
   padding: 0;
   margin: 0;
@@ -12,6 +19,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  max-width: 385px;
 }
 
 .form__label_type_checkbox {

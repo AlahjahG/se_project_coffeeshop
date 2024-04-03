@@ -27,6 +27,9 @@
   font-size: 16px;
   line-height: 20px;
 }
+.card__list-item:first-child {
+  margin-top: 0;
+}
 
 .card__list-divider {
   border-bottom: 1px solid black;
