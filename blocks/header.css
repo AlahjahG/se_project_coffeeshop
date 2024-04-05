@@ -28,6 +28,7 @@
   line-height: 72px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__description {
@@ -38,6 +39,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
+  z-index: 1;
 }
 
 .header__span-accent {
